@@ -19,15 +19,11 @@ A dynamic and interactive web-based tool designed to visualize popular sorting a
 - **JavaScript**: For algorithm implementation, animations, and user interactivity.
 
 ## How to Use
-
-1. Clone the repository to your local machine:
-   ```bash
-   git clone <repository-link>
-   ```
-2. Open the `index.html` file in your web browser.
-3. Use the sliders to adjust the array size and speed. Select an algorithm and click "Visualize" to start the sorting process.
+1. Open the `index.html` file in your web browser.
+2. Use the sliders to adjust the array size and speed. Select an algorithm and click "Visualize" to start the sorting process.
 
 ## Live Demo
+https://sarthakgupta01.github.io/Sortify/
 
 ## Key Highlights
 
@@ -69,4 +65,4 @@ A dynamic and interactive web-based tool designed to visualize popular sorting a
 
 ## Author
 
-Developed by [Sarthak Gupta](your-link)
+Developed by [Sarthak Gupta](https://sarthakgupta01.github.io)
