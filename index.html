@@ -1,0 +1,73 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sortify</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" href="assets/iconimg.png" type="image/icon type" />
+  </head>
+  <body>
+    <div class="header">
+      <center><h1>Sorting Algo Visualizer</h1></center>
+      <br />
+      <div class="vars">
+        <div class="range">
+          <div class="slide">
+            <b><label for="bars">Array Size</label></b> :
+            <input
+              id="bars"
+              type="range"
+              name="bars"
+              min="3"
+              max="50"
+              value="30"
+              oninput="setup()"
+              onchange="setup()"
+            />
+            <span id="b"> </span>
+          </div>
+          <div class="slide">
+            <b><label for="delay">Speed</label></b> :
+            <input
+              id="delay"
+              type="range"
+              name="delay"
+              min="50"
+              max="1000"
+              value="75"
+              oninput="setup()"
+              onchange="setup()"
+            />
+            <span id="d"></span>
+          </div>
+        </div>
+        <div class="sorts">
+          <input
+            type="button"
+            onclick="SelectionSort()"
+            value="Selection Sort"
+          />
+          <input type="button" onclick="BubbleSort()" value="Bubble Sort" />
+          <input
+            type="button"
+            onclick="InsertionSort()"
+            value="Insertion Sort"
+          />
+          <input type="button" onclick="MergeSort()" value="Merge Sort" />
+          <input type="button" onclick="QuickSort()" value="Quick Sort" />
+          <input type="button" onclick="HeapSort()" value="Heap Sort" /><br />
+        </div>
+        <button onclick="reset()">Generate New Array</button>
+      </div>
+      <br />
+    </div>
+    <div id="container"></div>
+    <center>
+      <footer class="foot">&copy; 2024 Sortify All Rights Reserved.</footer>
+    </center>
+    <br />
+    <script src="assets/beep.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
