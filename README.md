@@ -65,4 +65,4 @@ https://sarthakgupta01.github.io/Sortify/
 
 ## Author
 
-Developed by [Sarthak Gupta](https://sarthakgupta01.github.io)
+Developed by [Sarthak Gupta](https://github.com/Sarthakgupta01)
